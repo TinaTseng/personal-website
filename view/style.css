@@ -659,9 +659,9 @@ hr {
 }
 
 #contact a {
-    display: block;
     line-height: 32px;
     margin-bottom: 20px;
+    margin-right: 10px;
     opacity: 0.6;
     filter: alpha(opacity=60);
 }
