@@ -13,10 +13,7 @@ body {
     line-height: 1.64;
 }
 
-h1 {
-    font-family: 'Noto Sans TC', sans-serif;
-}
-
+h1,
 h2,
 h3,
 h4,
@@ -175,7 +172,7 @@ hr {
 }
 
 .jumbotron .container h1 {
-    padding-bottom: 20px;
+    /* padding-bottom: 20px; */
     /*border-bottom: 2px solid #FFFFFF;
     border-bottom-color: rgba(255, 255, 255, 0.5);*/
     text-shadow: 2px 2px 4px #4c4c4c;
