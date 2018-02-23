@@ -191,6 +191,15 @@ hr {
     padding-top: 5px;
 }
 
+@media (max-width: 768px) {
+    .jumbotron .container h1 {
+        font-size: 28px;
+    }
+    #typed {
+        font-size: 26px;
+    }
+}
+
 .typed-cursor{
   opacity: 1;
   animation: typedjsBlink 0.7s infinite;
