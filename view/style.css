@@ -192,11 +192,17 @@ hr {
 }
 
 @media (max-width: 768px) {
+    .jumbotron .container > * {
+        text-align: left;
+    }
     .jumbotron .container h1 {
         font-size: 28px;
     }
     #typed {
         font-size: 26px;
+    }
+    .typed-cursor{
+        font-size: 30px;
     }
 }
 
@@ -705,10 +711,6 @@ hr {
         top: 25%;
         left: 0%;
         padding-top: 0px;
-    }
-    .jumbotron .container h1 {
-        display: inline-block;
-        width: 74%;
     }
     .jumbotron .scroll-down {
         width: 100%;
