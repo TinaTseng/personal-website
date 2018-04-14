@@ -1,9 +1,7 @@
-@import url(http://fonts.googleapis.com/earlyaccess/notosanstc.css);
-
 html,
 body {
     color: #434242;
-    font-family: 'Raleway','Noto Sans TC','Open Sans',sans-serif !important;
+    font-family: 'Raleway','Open Sans',sans-serif !important;
     height: 100%;
 }
 
@@ -25,7 +23,7 @@ h6,
 .h5,
 .h6,
 strong, {
-    font-family: 'Raleway','Noto Sans TC','Open Sans',sans-serif !important;
+    font-family: 'Raleway','Open Sans',sans-serif !important;
     margin-bottom: 20px;
 }
 
