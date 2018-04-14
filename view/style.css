@@ -584,6 +584,13 @@ hr {
   transition: all 0.6s;
 }
 
+.work-zoom.search {
+  left: 40%;
+}
+.work-zoom.ext-link {
+  left: 60%;
+}
+
 .work-zoom i {
   display: table-cell;
   vertical-align: middle;
