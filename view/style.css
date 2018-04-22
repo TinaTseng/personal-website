@@ -118,7 +118,7 @@ hr {
 }*/
 
 .jumbotron {
-    background: no-repeat center center fixed url(images/bg-2.jpg);
+    background: no-repeat center center fixed url(images/pen-bg.jpg);
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
     -o-background-size: 100%;
@@ -166,7 +166,7 @@ hr {
 
 .jumbotron .container > * {
     text-align: center;
-    color: #FFFFFF;
+    color: #333;
 }
 
 .jumbotron .container h1 {
@@ -177,12 +177,12 @@ hr {
     /*display: inline-block;*/
     /*width: 358px;*/
     letter-spacing: 1px;
-    font-weight: 400;
-    font-size: 62px;
+    font-weight: 600;
+    font-size: 50px;
 }
 
 #typed {
-    font-size: 56px;
+    font-size: 50px;
     font-weight: 600;
     letter-spacing: 1px;
     text-shadow: 2px 2px 4px #4c4c4c;
@@ -206,7 +206,7 @@ hr {
   animation: typedjsBlink 0.7s infinite;
   -webkit-animation: typedjsBlink 0.7s infinite;
   animation: typedjsBlink 0.7s infinite;
-  font-size: 60px;
+  font-size: 50px;
 }
 @keyframes typedjsBlink{
   50% { opacity: 0.0; }
