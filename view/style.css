@@ -359,13 +359,19 @@ hr {
 }
 
 #profile .row > div img {
-    width: 230px;
-    height: 230px;
+    width: 100%;
+    height: auto;
     border: 11px solid #ddefeb; /*#aee2d9;*/
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -o-border-radius: 50%;
     border-radius: 50%;
+}
+@media (min-width: 1200px) {
+    #profile .row > div img {
+        width: 230px;
+        height: 230px;
+    }
 }
 
 #profile .row > div a {
