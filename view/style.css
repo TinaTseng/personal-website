@@ -173,7 +173,7 @@ hr {
     /* padding-bottom: 20px; */
     /*border-bottom: 2px solid #FFFFFF;
     border-bottom-color: rgba(255, 255, 255, 0.5);*/
-    text-shadow: 2px 2px 4px #4c4c4c;
+    /* text-shadow: 2px 2px 4px #4c4c4c; */
     /*display: inline-block;*/
     /*width: 358px;*/
     letter-spacing: 1px;
@@ -186,7 +186,7 @@ hr {
     font-size: 50px;
     font-weight: 600;
     letter-spacing: 1px;
-    text-shadow: 2px 2px 4px #4c4c4c;
+    /* text-shadow: 2px 2px 4px #4c4c4c; */
     padding-top: 5px;
 }
 
