@@ -191,18 +191,6 @@ hr {
     padding-top: 5px;
 }
 
-@media (max-width: 768px) {
-    .jumbotron .container h1 {
-        font-size: 28px;
-    }
-    #typed {
-        font-size: 28px;
-    }
-    .typed-cursor{
-        font-size: 30px !important;
-    }
-}
-
 .typed-cursor{
   font-family: 'Playfair Display','Raleway','Open Sans',sans-serif !important;
   opacity: 1;
@@ -229,9 +217,25 @@ hr {
 }
 
 .jumbotron .subtitle {
+    font-family: 'Playfair Display','Raleway','Open Sans',sans-serif !important;
     margin-top: 16px;
-    font-size: 16px;
-    color: #666;
+    font-size: 21px;
+    color: #1bbede;
+}
+
+@media (max-width: 767px) {
+    .jumbotron .container h1 {
+        font-size: 28px;
+    }
+    #typed {
+        font-size: 28px;
+    }
+    .typed-cursor{
+        font-size: 30px !important;
+    }
+    .jumbotron .subtitle {
+        font-size: 16px;
+    }
 }
 
 .jumbotron .scroll-down {
