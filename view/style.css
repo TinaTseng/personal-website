@@ -410,6 +410,14 @@ hr {
     color: #BCBCBC;
 }
 
+.jobIcon {
+    width: 72px;
+    height: 72px;
+    box-sizing: border-box;
+    background-clip: content-box;
+    border: 4px solid transparent;
+    border-radius: 6px
+}
 /* abilities */
 
 #abilities ul > li {
