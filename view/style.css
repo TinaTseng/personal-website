@@ -119,16 +119,10 @@ hr {
 
 .jumbotron {
     background: no-repeat center center fixed url(images/pen-bg.jpg);
-    -webkit-background-size: 100%;
-    -moz-background-size: 100%;
-    -o-background-size: 100%;
-    background-size: 100%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/lake-bg.jpg', sizingMethod='scale')";
-    filter: progid: DXImageTransform.Microsoft.AlphaImageLoader(src='images/lake-bg.jpg', sizingMethod='scale');
     margin-bottom: 0px;
     padding: 0px;
 }
@@ -863,19 +857,15 @@ hr {
 
 @media only screen and (orientation: portrait) and (max-width: 767px) {
     .jumbotron {
-        -webkit-background-size: auto 150%;
         background-attachment: scroll;
+        background-position-x: 75%;
     }
 }
 
 @media only screen and (orientation: landscape) and (max-width: 767px) {
     .jumbotron {
-        -webkit-background-size: 150% auto;
         background-attachment: scroll;
     }
-    /*.jumbotron .lead {
-        display: none;
-    }*/
 }
 
 @keyframes wiggle {
