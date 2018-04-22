@@ -23,7 +23,7 @@ h6,
 .h5,
 .h6,
 strong, {
-    font-family: 'Raleway','Open Sans',sans-serif !important;
+    font-family: 'Raleway','Open Sans',sans-serif;
     margin-bottom: 20px;
 }
 
@@ -174,8 +174,8 @@ hr {
     /*border-bottom: 2px solid #FFFFFF;
     border-bottom-color: rgba(255, 255, 255, 0.5);*/
     /* text-shadow: 2px 2px 4px #4c4c4c; */
-    /*display: inline-block;*/
     /*width: 358px;*/
+    font-family: 'Playfair Display','Raleway','Open Sans',sans-serif !important;
     letter-spacing: 1px;
     font-weight: 600;
     font-size: 50px;
@@ -183,6 +183,7 @@ hr {
 }
 
 #typed {
+    font-family: 'Playfair Display','Raleway','Open Sans',sans-serif !important;
     font-size: 50px;
     font-weight: 600;
     letter-spacing: 1px;
@@ -203,10 +204,11 @@ hr {
 }
 
 .typed-cursor{
+  font-family: 'Playfair Display','Raleway','Open Sans',sans-serif !important;
   opacity: 1;
-  animation: typedjsBlink 0.7s infinite;
-  -webkit-animation: typedjsBlink 0.7s infinite;
-  animation: typedjsBlink 0.7s infinite;
+  animation: typedjsBlink 0.1s infinite;
+  -webkit-animation: typedjsBlink 0.1s infinite;
+  animation: typedjsBlink 0.1s infinite;
   font-size: 50px;
 }
 @keyframes typedjsBlink{
