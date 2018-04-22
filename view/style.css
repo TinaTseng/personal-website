@@ -429,6 +429,10 @@ hr {
     .experience .jobTitle {
         display:inline-block;
         margin-left: 1em;
+        vertical-align: middle;
+    }
+    .experiences .experience:first-child .col-md-4{
+        margin: 1em 0 10px 0;
     }
 }
 
