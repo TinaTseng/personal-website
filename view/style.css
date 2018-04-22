@@ -221,16 +221,6 @@ hr {
     font-size: 21px;
     color: #1bbede;
     padding-bottom: 5px;
-    animation: underLine 0.7s;
-    -webkit-animation: underLine 0.7s;
-}
-@keyframes underLine{
-    from {border-bottom: none;}
-    to {border-bottom: 1px solid #1bbede;}   
-}
-@-webkit-keyframes underLine{
-    from {border-bottom: none;}
-    to {border-bottom: 1px solid #1bbede;} 
 }
 
 @media (max-width: 767px) {
@@ -387,6 +377,9 @@ hr {
     text-decoration: none;
 }
 
+.emWord {
+  font-size:2em;
+}
 /* experiences */
 
 #experiences .experience {
