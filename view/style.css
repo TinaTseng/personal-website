@@ -196,7 +196,6 @@ hr {
   opacity: 1;
   animation: typedjsBlink 0.7s infinite;
   -webkit-animation: typedjsBlink 0.7s infinite;
-  animation: typedjsBlink 0.7s infinite;
   font-size: 50px;
   font-weight: 900;
 }
@@ -221,6 +220,17 @@ hr {
     margin-top: 16px;
     font-size: 21px;
     color: #1bbede;
+    padding-bottom: 5px;
+    animation: underLine 0.7s;
+    -webkit-animation: underLine 0.7s;
+}
+@keyframes underLine{
+    from {border-bottom: none;}
+    to {border-bottom: 1px solid #1bbede;}   
+}
+@-webkit-keyframes underLine{
+    from {border-bottom: none;}
+    to {border-bottom: 1px solid #1bbede;} 
 }
 
 @media (max-width: 767px) {
