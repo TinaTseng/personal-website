@@ -412,7 +412,7 @@ hr {
 
 .jobIcon {
     width: 72px;
-    height: 72px;
+    height: auto;
     box-sizing: border-box;
     background-clip: content-box;
     border: 4px solid transparent;
