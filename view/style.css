@@ -367,7 +367,7 @@ hr {
     -o-border-radius: 50%;
     border-radius: 50%;
 }
-@media (min-width: 1200px) {
+@media (min-width: 1200px) and (max-width: 991px){
     #profile .row > div img {
         width: 230px;
         height: 230px;
