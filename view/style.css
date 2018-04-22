@@ -425,7 +425,7 @@ hr {
 .jobIcon.pegaIcon {
     width: 120px;
 }
-@media (min-width: 991px) {
+@media (max-width: 991px) {
     .experience .jobTitle {
         display:inline-block;
         margin-left: 1em;
