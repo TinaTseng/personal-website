@@ -177,7 +177,7 @@ hr {
     /*width: 358px;*/
     font-family: 'Playfair Display','Raleway','Open Sans',sans-serif !important;
     letter-spacing: 1px;
-    font-weight: 600;
+    font-weight: 900;
     font-size: 50px;
     display: inline-block;
 }
@@ -185,7 +185,7 @@ hr {
 #typed {
     font-family: 'Playfair Display','Raleway','Open Sans',sans-serif !important;
     font-size: 50px;
-    font-weight: 600;
+    font-weight: 900;
     letter-spacing: 1px;
     /* text-shadow: 2px 2px 4px #4c4c4c; */
     padding-top: 5px;
@@ -206,10 +206,11 @@ hr {
 .typed-cursor{
   font-family: 'Playfair Display','Raleway','Open Sans',sans-serif !important;
   opacity: 1;
-  animation: typedjsBlink 0.1s infinite;
-  -webkit-animation: typedjsBlink 0.1s infinite;
-  animation: typedjsBlink 0.1s infinite;
+  animation: typedjsBlink 0.7s infinite;
+  -webkit-animation: typedjsBlink 0.7s infinite;
+  animation: typedjsBlink 0.7s infinite;
   font-size: 50px;
+  font-weight: 900;
 }
 @keyframes typedjsBlink{
   50% { opacity: 0.0; }
