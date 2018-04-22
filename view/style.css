@@ -418,6 +418,13 @@ hr {
     border: 4px solid transparent;
     border-radius: 6px
 }
+.jobIcon.ctciIcon {
+    width: 90px;
+}
+
+.jobIcon.pegaIcon {
+    width: 120px;
+}
 /* abilities */
 
 #abilities ul > li {
