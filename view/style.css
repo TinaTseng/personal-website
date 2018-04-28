@@ -97,6 +97,10 @@ hr {
 .fa.fa-stack-1x.fa-inverse {
     color:#434242!important;
 }
+.fa.fa-github.fa-2x {
+    font-size: 40px;
+    vertical-align: middle;
+}
 
 .jumbotron {
     background: no-repeat center center fixed url(images/pen-bg.jpg);
