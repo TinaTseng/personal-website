@@ -95,7 +95,7 @@ hr {
 
 /* Icon */
 .fa.fa-stack-1x.fa-inverse {
-    color:#434242;
+    color:#434242!important;
 }
 
 .jumbotron {
