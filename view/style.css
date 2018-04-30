@@ -529,6 +529,9 @@ hr {
     line-height: 18px;
     padding: 15px;
 }
+#projects .sub-header{
+    color: #7b7a7a;
+}
 
 /* ===================================
   07. Portfoilo Section
