@@ -899,6 +899,7 @@
         // resubmit the form once the hit is done.
         gtag('event', 'cv_download_complete', {
             'event_callback': function() {
+                var cvBtn = document.getElementById('cvBtn');
                 cvBtn.click();
             }
         });
