@@ -101,7 +101,7 @@
                         <strong>居住地 :</strong>
                         <br /> 台北市
                     </p>
-                    <a href="https://tinatseng.github.io/personal-website/cv/TinaTseng_CV.pdf" target="_blank" id="cvBtn" class="btn btn-warning" role="button">Download My CV</a>
+                    <a href="https://tinatseng.github.io/personal-website/cv/TinaTseng_CV.pdf" target="_blank" id="cvBtn" class="btn btn-warning" role="button" onclick="console.log('click cv')">Download My CV</a>
                 </div>
             </div>
         </div>
@@ -890,7 +890,7 @@
 
     // Add a listener for the "cv download" event.
     cvBtn.addEventListener('click', function(event) {
-
+        console.log("click");
         // Prevent the browser from submitting the form
         // and thus unloading the current page.
         event.preventDefault();
@@ -899,6 +899,7 @@
         // resubmit the form once the hit is done.
         gtag('event', 'cv_download_complete', {
             'event_callback': function() {
+                console.log("callback");
                 var cvBtn = document.getElementById('cvBtn');
                 cvBtn.click();
             }
