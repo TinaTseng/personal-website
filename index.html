@@ -101,7 +101,7 @@
                         <strong>居住地 :</strong>
                         <br /> 台北市
                     </p>
-                    <a href="https://tinatseng.github.io/personal-website/cv/TinaTseng_CV.pdf" target="_blank" class="btn btn-warning" role="button" onClick="ga('send', 'event', 'Link', 'Click', 'Download CV');">Download My CV</a>
+                    <a href="https://tinatseng.github.io/personal-website/cv/TinaTseng_CV.pdf" target="_blank" id="cvBtn" class="btn btn-warning" role="button">Download My CV</a>
                 </div>
             </div>
         </div>
@@ -883,6 +883,25 @@
     $('.work-zoom').magnificPopup({
         type: 'inline',
         removalDelay: 400
+    });
+
+    /* GA */
+    var cvBtn = document.getElementById('cvBtn');
+
+    // Add a listener for the "cv download" event.
+    cvBtn.addEventListener('click', function(event) {
+
+        // Prevent the browser from submitting the form
+        // and thus unloading the current page.
+        event.preventDefault();
+
+        // Send the event to Google Analytics and
+        // resubmit the form once the hit is done.
+        gtag('event', 'cv_download_complete', {
+            'event_callback': function() {
+                cvBtn.click();
+            }
+        });
     });
     </script>
 </body>
